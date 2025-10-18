@@ -118,8 +118,42 @@ MongoDB Compass es una herramienta visual para explorar tus bases de datos.
 👉 [Descargar MongoDB Compass](https://www.mongodb.com/try/download/compass)
 
 ---
+## 5 Instalación y configuración de Git
 
-## 5. Verificación completa del entorno
+###  Paso 1: Descargar Git
+1. Visita [https://git-scm.com/downloads](https://git-scm.com/downloads)
+2. Descarga el instalador correspondiente a tu sistema operativo.
+
+###  Paso 2: Instalar Git
+1. Ejecuta el instalador.
+2. Acepta los valores por defecto a menos que necesites personalizar la instalación.
+3. Asegúrate de marcar la opción **“Git from the command line and also from 3rd-party software”**.
+
+###  Paso 3: Verificar instalación
+Abre la terminal en VS Code y ejecuta:
+
+```bash
+git --version
+```
+
+###  Paso 4: Configurar Git
+Configura tu nombre de usuario y correo electrónico (los mismos de GitHub):
+
+```bash
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu_correo@ejemplo.com"
+```
+
+###  Paso 5: Comprobar configuración
+```bash
+git config --list
+```
+
+Deberías ver tu nombre y correo configurados correctamente.
+
+---
+
+## 6. Verificación completa del entorno
 
 Abre VS Code y en la terminal ejecuta:
 
@@ -134,7 +168,7 @@ Todos deben responder con una versión válida.
 
 ---
 
-##  6. Prueba rápida del entorno
+##  7 Prueba rápida del entorno
 
 ### Crear un proyecto Angular de prueba
 
